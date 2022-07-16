@@ -1,6 +1,12 @@
+import NotificationButton from "./components/NotificationsButton"
+
 function App() {
-  return(
-  <h1>Pagina em Manutenção.</h1>)
+  return (
+    <>
+      <h1>Tela de Vendas - Regional</h1>
+      <NotificationButton />
+    </>
+  )
 }
 
 export default App
