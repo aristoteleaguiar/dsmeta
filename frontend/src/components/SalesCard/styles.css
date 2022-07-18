@@ -7,11 +7,11 @@
 .dsmeta-sales-title {
     color: #ffffff;
     font-size: 20px;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 .dsmeta-form-control-container {
-    margin-bottom: 10px;
+    margin-bottom: 18px;
     max-width: 140px;
 }
 
@@ -19,7 +19,7 @@
     width: 100%;
     height: 30px;
     background-color: #ffffff;
-    border: 1px solid #093b90;
+    border: 1px solid #e9ebed;
     border-radius: 8px;
     color: #40c577;
     padding: 0 25px;
@@ -42,7 +42,7 @@
 .dsmeta-sales-table tbody {
     font-size: 14px;
     font-weight: 400;
-    color: #089d0f;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -78,11 +78,11 @@
     }
 
     .dsmeta-card {
-        padding: 45px;
+        padding: 35px;
     }
 
     .dsmeta-sales-table tbody tr {
-        height: 45px;
+        height: 50px;
     }
 
     .dsmeta-sales-table tbody {
