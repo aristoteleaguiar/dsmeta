@@ -15,7 +15,7 @@ function SalesCard() {
     return (
 
         <div className="dsmeta-card">
-            <h2 className="dsmeta-sales-title">Vendas</h2>
+            <h2 className="dsmeta-sales-title">Periodo</h2>
             <div>
                 <div className="dsmeta-form-control-container">
 
@@ -41,23 +41,23 @@ function SalesCard() {
                 <table className="dsmeta-sales-table">
                     <thead>
                         <tr>
-                            <th className="show992">ID</th>
-                            <th className="show576">Data</th>
+                            <th className="show992">Cod</th>
+                            <th className="show576">Data da Venda</th>
                             <th>Vendedor</th>
-                            <th className="show992">Visitas</th>
-                            <th className="show992">Vendas</th>
-                            <th>Total</th>
-                            <th>Notificar</th>
+                            <th className="show992">Nº Visitas</th>
+                            <th className="show992">Nº Vendas</th>
+                            <th>Total de Vendas</th>
+                            <th>SMS</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td className="show992">#341</td>
                             <td className="show576">08/07/2022</td>
-                            <td>Anakin</td>
+                            <td>Plinio</td>
                             <td className="show992">15</td>
-                            <td className="show992">11</td>
-                            <td>R$ 55300.00</td>
+                            <td className="show992">08</td>
+                            <td>R$ 108.974,09</td>
                             <td>
                                 <div className="dsmeta-red-btn-container">
                                     <NotificationButton />
@@ -65,12 +65,12 @@ function SalesCard() {
                             </td>
                         </tr>
                         <tr>
-                            <td className="show992">#341</td>
+                            <td className="show992">#342</td>
                             <td className="show576">08/07/2022</td>
-                            <td>Anakin</td>
+                            <td>Jessica</td>
                             <td className="show992">15</td>
-                            <td className="show992">11</td>
-                            <td>R$ 55300.00</td>
+                            <td className="show992">14</td>
+                            <td>R$ 55.372,12</td>
                             <td>
                                 <div className="dsmeta-red-btn-container">
                                     <NotificationButton />
@@ -78,12 +78,12 @@ function SalesCard() {
                             </td>
                         </tr>
                         <tr>
-                            <td className="show992">#341</td>
+                            <td className="show992">#343</td>
                             <td className="show576">08/07/2022</td>
-                            <td>Anakin</td>
-                            <td className="show992">15</td>
-                            <td className="show992">11</td>
-                            <td>R$ 55300.00</td>
+                            <td>Amanda</td>
+                            <td className="show992">28</td>
+                            <td className="show992">18</td>
+                            <td>R$ 46.472,91</td>
                             <td>
                                 <div className="dsmeta-red-btn-container">
                                     <NotificationButton />
@@ -94,7 +94,10 @@ function SalesCard() {
 
                 </table>
             </div>
-
+            <p>
+                Desenvolvido por
+                <a href="https://www.instagram.com/aristoteles_aguiar">@aristoteles_aguiar</a>
+            </p>
         </div>
     )
 }
